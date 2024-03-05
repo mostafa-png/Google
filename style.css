@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+/* .container {
+
+} */
+.material-symbols-outlined {
+    margin: 5px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container1 {
+    height: 575px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.google1 {
+    /* display: inline-block; */
+    margin-top: 90px;
+    margin-left: 30px;
+    height: 95px;
+    width: 90px;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search1 {
+    text-align: center;
+}
+
+.search {
+    border: none;
+    box-shadow: 0 0 6px 0px gray;
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    /* border: solid black 1px; */
+}
+
+.search:focus {
+    box-shadow: 0 0 8px 0px gray;
+    outline: none;
+}
+
+.span {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.span1 {
+    margin-left: 50px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.arabic {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: small;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.foot1 {
+    /* height: 30px;
+    background-color: rgba(128, 128, 128, 0.927); */
+    padding: 15px 30px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #1f1f1f;
+
+}
+
+.foot2 {
+    /* height: 30px;
+    background-color: rgba(128, 128, 128, 0.927); */
+    padding: 15px 30px;
+    background: #f2f2f2;
+    /* border-bottom: 1px solid #1f1f1f; */
+
+}
+
+.goxjub {
+    margin-left: px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    cursor: pointer;
+    line-height: 44px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.search-ico {
+    position: relative;
+    left: 30px;
+}
+
+.microphone-ico {
+    position: relative;
+    right: 60px;
+}
+
+.camera-ico {
+    margin-left: 10px;
+    position: relative;
+    right: 60px;
+}
